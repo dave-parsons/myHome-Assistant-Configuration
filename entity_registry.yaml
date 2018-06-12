@@ -1,0 +1,62 @@
+media_player.vizio1:
+  name: Vizio1
+  platform: cast
+  unique_id: 9655af14-9148-6855-a217-c568e5959335
+media_player.bonus_room:
+  name: Bonus Room Sonos
+  platform: sonos
+  unique_id: RINCON_B8E9379F7F2C01400
+media_player.outdoor_kitchen:
+  name: Outdoor Kitchen Sonos
+  platform: sonos
+  unique_id: RINCON_5CAAFD27DE0801400
+media_player.garage:
+  name: Garage Sonos
+  platform: sonos
+  unique_id: RINCON_5CAAFDC0B19401400
+media_player.master_bathroom:
+  name: Master Bathroom Sonos
+  platform: sonos
+  unique_id: RINCON_7828CA15C7FA01400
+media_player.kids_bathroom:
+  name: Kids Bathroom Sonos
+  platform: sonos
+  unique_id: RINCON_7828CA1454E801400
+media_player.family_room:
+  name: Family Room Sonos
+  platform: sonos
+  unique_id: RINCON_5CAAFDA6401701400
+media_player.marians_bedroom:
+  name: Marian's Bedroom Sonos
+  platform: sonos
+  unique_id: RINCON_5CAAFDC0B17601400
+media_player.office:
+  name: Office Sonos
+  platform: sonos
+  unique_id: RINCON_5CAAFDC25F1201400
+sensor.parsons_iphone_battery_state:
+  name: David's iPhone Battery State
+  platform: ios
+  unique_id: state_david_iphone
+sensor.parsons_iphone_battery_level:
+  name: David's iPhone Battery Level
+  platform: ios
+  unique_id: level_david_iphone
+sensor.monicas_iphone_battery_state:
+  name: Monica's iPhone Battery State
+  platform: ios
+  unique_id: state_monicas_iphone
+sensor.monicas_iphone_battery_level:
+  name: Monica's iPhone Battery Level
+  platform: ios
+  unique_id: level_monicas_iphone
+media_player.vizio2:
+  name: vizio2
+  platform: cast
+  unique_id: 2a0e93b2-a5f4-308f-7c8c-1941dd6a7f10
+media_player.office_speaker:
+  name:
+  platform: cast
+  unique_id: e037ce52-9fa9-055a-b3c9-122c40b2028b
+
+  

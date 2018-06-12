@@ -1,0 +1,130 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Parsons Home
+  # Location required to calculate the time the sun rises and sets
+  latitude: 47.595404
+  longitude: -122.061677
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 56
+  # metric for Metric, imperial for Imperial
+  unit_system: imperial
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/Los_Angeles
+  # Customization file
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+introduction:
+
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+duckdns:
+  domain: parsonshome
+  access_token: !secret ddns_access_token
+
+http:
+  # Secrets are defined in the file secrets.yaml
+  api_password: !secret http_password
+  base_url: parsonshome.duckdns.org:8123
+  ssl_certificate: /certificate/_archive/G3NXe8/cert.pem
+  ssl_key: /certificate/_archive/G3NXe8/privkey.pem
+  trusted_networks:
+  - 127.0.0.1
+  - 192.168.1.0/24
+
+  cors_allowed_origins:
+    - https://google.com
+    - https://www.home-assistant.io
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+# Weather prediction
+sensor:
+  - platform: yr
+
+# Text to speech
+tts:
+  - platform: google
+
+# Cloud
+cloud:
+#  alexa:
+#    filter:
+#      include_entities:
+#        - media_player.viziodff1m3
+
+# IOS Setup
+ios:
+
+device_tracker:
+  - platform: linksys_smart
+    host: 10.0.0.1
+    username: Router_Username
+    password: Router_Password
+    new_device_defaults:
+      track_new_devices: True
+      hide_if_away: False
+
+ecobee:
+  api_key: ECOBEEKEY
+
+# IFTTT Webhooks Key
+ifttt:
+  key: 70T2IYq9OsKPny9xvq-JU
+
+google:
+  client_id: google_client_ID
+  client_secret: google_client_secret  
+  
+media_player:
+  - platform: kodi
+    name: QBox
+    host: 10.0.0.47
+    port: 8090
+    tcp_port: 9090
+    username: QBox_username
+    password: QBox_password
+
+cover:
+  - platform: gogogate2
+    username: gogo_email
+    password: gogo_password
+    ip_address: gogo_IP
+
+media_player:
+  - platform: cast    
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+

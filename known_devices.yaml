@@ -1,0 +1,424 @@
+parsonsiphone:
+  hide_if_away: false
+  icon:
+  mac: 40:98:AD:4E:30:B2
+  name: Parsons-iPhone
+  picture:
+  track: true
+
+monicas_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: monicas iphone
+  picture:
+  track: true
+  vendor:
+
+viziom1:
+  hide_if_away: false
+  icon:
+  mac: A4:8D:3B:F5:0C:4B
+  name: VizioM1
+  picture:
+  track: true
+
+100033__sonos_sub:
+  hide_if_away: false
+  icon:
+  mac: 5C:AA:FD:85:01:B0
+  name: 10.0.0.33 - Sonos SUB
+  picture:
+  track: true
+
+sonos_connect:
+  hide_if_away: false
+  icon:
+  mac: B8:E9:37:9F:7F:2C
+  name: Sonos CONNECT
+  picture:
+  track: true
+
+gogogate:
+  hide_if_away: false
+  icon:
+  mac: 70:F1:1C:02:BD:3A
+  name: gogogate
+  picture:
+  track: true
+
+android__echo_dot:
+  hide_if_away: false
+  icon:
+  mac: FC:A6:67:6B:45:3B
+  name: Android  Echo Dot
+  picture:
+  track: true
+
+lorex:
+  hide_if_away: false
+  icon:
+  mac: 00:23:63:20:58:F9
+  name: Lorex
+  picture:
+  track: true
+
+android_echo_dot:
+  hide_if_away: false
+  icon:
+  mac: FC:A6:67:47:23:AC
+  name: Android Echo Dot
+  picture:
+  track: true
+
+monicasiphone:
+  hide_if_away: false
+  icon:
+  mac: D0:2B:20:CB:35:09
+  name: Monicas-iPhone
+  picture:
+  track: true
+
+10002__sonos_one:
+  hide_if_away: false
+  icon:
+  mac: 78:28:CA:15:C7:FA
+  name: 10.0.0.2 - Sonos One
+  picture:
+  track: true
+
+pc0tyft1:
+  hide_if_away: false
+  icon:
+  mac: 8C:16:45:53:07:A9
+  name: PC0TYFT1
+  picture:
+  track: true
+
+100051__sonos_play1:
+  hide_if_away: false
+  icon:
+  mac: 5C:AA:FD:C1:D4:48
+  name: 10.0.0.51 - Sonos PLAY:1
+  picture:
+  track: true
+
+100012__sonos_playbar:
+  hide_if_away: false
+  icon:
+  mac: 5C:AA:FD:A6:40:17
+  name: 10.0.0.12 - Sonos PLAYBAR
+  picture:
+  track: true
+
+100067__sonos_play1:
+  hide_if_away: false
+  icon:
+  mac: 5C:AA:FD:C1:D4:46
+  name: 10.0.0.67 - Sonos PLAY:1
+  picture:
+  track: true
+
+matthewipadmini:
+  hide_if_away: false
+  icon:
+  mac: BC:3B:AF:F3:CD:02
+  name: MatthewIpadMini
+  picture:
+  track: true
+
+qbox:
+  hide_if_away: false
+  icon:
+  mac: 00:15:18:01:81:31
+  name: QBox
+  picture:
+  track: true
+
+hs200mbrlightswitch:
+  hide_if_away: false
+  icon:
+  mac: 70:4F:57:04:D1:7A
+  name: HS200-MBR-lightswitch
+  picture:
+  track: true
+
+sc132cb2__icamera:
+  hide_if_away: false
+  icon:
+  mac: 00:00:00:00:00:00
+  name: SC132CB2 - iCamera
+  picture:
+  track: true
+
+parsons:
+  hide_if_away: false
+  icon:
+  mac: 48:F8:B3:F3:62:BF
+  name: Parsons
+  picture:
+  track: true
+
+synology_ds218:
+  hide_if_away: false
+  icon:
+  mac: 00:11:32:89:76:4D
+  name: Synology DS218+
+  picture:
+  track: false
+
+viziom2:
+  hide_if_away: false
+  icon:
+  mac: A0:6A:44:20:ED:45
+  name: VizioM2
+  picture:
+  track: true
+
+xbox:
+  hide_if_away: false
+  icon:
+  mac: 30:59:B7:99:22:8F
+  name: XBOX
+  picture:
+  track: true
+
+android_echo_dot_2:
+  hide_if_away: false
+  icon:
+  mac: 38:F7:3D:A2:F5:10
+  name: Android Echo Dot
+  picture:
+  track: true
+
+sonos_master_bath:
+  hide_if_away: false
+  icon:
+  mac: 5C:AA:FD:C0:B1:76
+  name: Sonos Master Bath
+  picture:
+  track: true
+
+100064__sonos_play1:
+  hide_if_away: false
+  icon:
+  mac: 5C:AA:FD:27:DE:08
+  name: 10.0.0.64 - Sonos PLAY:1
+  picture:
+  track: true
+
+vam_00d02de16c92:
+  hide_if_away: false
+  icon:
+  mac: 00:D0:2D:E1:6C:92
+  name: VAM 00D02DE16C92
+  picture:
+  track: true
+
+echobee_thermostat:
+  hide_if_away: false
+  icon:
+  mac: 44:61:32:24:03:63
+  name: Echobee Thermostat
+  picture:
+  track: true
+
+android_echo_dot_3:
+  hide_if_away: false
+  icon:
+  mac: 68:37:E9:62:45:1B
+  name: Android Echo Dot
+  picture:
+  track: true
+
+sonos_office:
+  hide_if_away: false
+  icon:
+  mac: 5C:AA:FD:C2:5F:12
+  name: Sonos Office
+  picture:
+  track: true
+
+mariansiphone:
+  hide_if_away: false
+  icon:
+  mac: 8C:8E:F2:07:DF:74
+  name: Marians-Iphone
+  picture:
+  track: true
+
+100030__sonos_one:
+  hide_if_away: false
+  icon:
+  mac: 78:28:CA:14:54:E8
+  name: 10.0.0.30 - Sonos One
+  picture:
+  track: true
+
+e037ce529fa9055ab3c9122c40b2028b:
+  hide_if_away: false
+  icon:
+  mac: 48:D6:D5:65:26:DF
+  name: e037ce52-9fa9-055a-b3c9-122c40b2028b
+  picture:
+  track: true
+
+sonos7828ca1454e8:
+  hide_if_away: false
+  icon:
+  mac: 50:C7:BF:74:4A:5D
+  name: sonos7828CA1454E8
+  picture:
+  track: true
+
+ooma:
+  hide_if_away: false
+  icon:
+  mac: 00:18:61:31:EF:D1
+  name: Ooma
+  picture:
+  track: true
+
+broadlink_rmprosubd0aee9:
+  hide_if_away: false
+  icon:
+  mac: 34:EA:34:D0:AE:E9
+  name: Broadlink RMPROSUB-d0-ae-e9
+  picture:
+  track: true
+
+epson4fe2a6:
+  hide_if_away: false
+  icon:
+  mac: 00:00:48:4F:E2:A6
+  name: EPSON4FE2A6
+  picture:
+  track: true
+
+ifit_treadmill:
+  hide_if_away: false
+  icon:
+  mac: E0:4F:43:81:FC:07
+  name: iFit Treadmill
+  picture:
+  track: true
+
+netgear_wndr4500:
+  hide_if_away: false
+  icon:
+  mac: 20:4E:7F:1F:5A:95
+  name: Netgear WNDR4500
+  picture:
+  track: true
+
+android_echo_dot_4:
+  hide_if_away: false
+  icon:
+  mac: 18:74:2E:79:54:D4
+  name: Android Echo Dot
+  picture:
+  track: true
+
+kdl70r520asonytv:
+  hide_if_away: false
+  icon:
+  mac: 30:0E:D5:27:9A:74
+  name: KDL-70R520A-Sony-TV
+  picture:
+  track: true
+
+david_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: david iphone
+  picture:
+  track: true
+
+delli137000:
+  hide_if_away: false
+  icon:
+  mac: F8:34:41:03:21:27
+  name: DELLI13-7000
+  picture:
+  track: true
+
+monicasipad:
+  hide_if_away: false
+  icon:
+  mac: E0:66:78:4C:C7:FB
+  name: Monicas-iPad
+  picture:
+  track: true
+
+tuckersipad:
+  hide_if_away: false
+  icon:
+  mac: 5C:F7:E6:86:8F:74
+  name: Tuckers-Ipad
+  picture:
+  track: true
+
+sonos5caafdc0b194:
+  hide_if_away: false
+  icon:
+  mac: 64:B0:A6:91:D7:30
+  name: sonos5CAAFDC0B194
+  picture:
+  track: true
+
+fernandplewatch:
+  hide_if_away: false
+  icon:
+  mac: 40:4D:7F:3C:4D:0B
+  name: FernandpleWatch
+  picture:
+  track: true
+
+meryasiphone:
+  hide_if_away: false
+  icon:
+  mac: E0:C7:67:07:A4:C8
+  name: meryas-iPhone
+  picture:
+  track: true
+
+santiagosiphone:
+  hide_if_away: false
+  icon:
+  mac: 7C:50:49:39:3B:92
+  name: SantiagosIPhone
+  picture:
+  track: true
+
+parsonsideapad:
+  hide_if_away: false
+  icon:
+  mac: 48:D2:24:8E:8B:A5
+  name: PARSONSIDEAPAD
+  picture:
+  track: true
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: 84:41:67:25:01:4D
+  name: iPhone
+  picture:
+  track: true
+
+fernandasipad:
+  hide_if_away: false
+  icon:
+  mac: 94:E9:6A:78:3F:78
+  name: Fernandas-iPad
+  picture:
+  track: true
+
+monicasmacbookpro3:
+  hide_if_away: false
+  icon:
+  mac: 68:A8:6D:26:21:18
+  name: monicas-MacBook-Pro-3
+  picture:
+  track: true

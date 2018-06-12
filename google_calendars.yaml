@@ -1,0 +1,95 @@
+- cal_id: daparsons2010@gmail.com
+  entities:
+  - device_id: matthew_with_dave
+    name: Matthew with Dave
+    track: true
+
+- cal_id: monica.tendilla@gmail.com
+  entities:
+  - device_id: monica_work
+    name: Monica work
+    track: true
+
+- cal_id: bnk103honllp5nkvtff9vt51dkt74sk8@import.calendar.google.com
+  entities:
+  - device_id: httpwwwbsd405orgpluginallinoneeventcalendarcontrollerai1ec_exporter_controlleractionexport_eventsno_htmltrue
+    name: http://www.bsd405.org/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&no_html=true&&
+    track: true
+
+- cal_id: 2d7j7tsej2519dfflb77vkjc9g@group.calendar.google.com
+  entities:
+  - device_id: dave_and_monica
+    name: Dave and Monica
+    track: true
+
+- cal_id: d4veoohq2jh8enc1vt03dhu53g@group.calendar.google.com
+  entities:
+  - device_id: isd_rss_calendar
+    name: ISD RSS Calendar
+    track: true
+
+- cal_id: p0fv88ii9cq92u9gvakj4q97v8@group.calendar.google.com
+  entities:
+  - device_id: marians_calendar
+    name: Marian's calendar
+    track: true
+
+- cal_id: v4u0qn2t7r9mi12dig2fgu3thk@group.calendar.google.com
+  entities:
+  - device_id: marias_calendar_meryan130gmailcom
+    name: Maria's Calendar (meryan130@gmail.com)
+    track: true
+
+- cal_id: oquf9r55tc1kbejgf620mg4s78@group.calendar.google.com
+  entities:
+  - device_id: matthews_activities_and_events
+    name: Matthews Activities and Events
+    track: true
+
+- cal_id: judj9t04vqdecdj9mktu4ke2rs@group.calendar.google.com
+  entities:
+  - device_id: matthews_school_holidays
+    name: Matthew's School Holidays
+    track: true
+
+- cal_id: 4rh1jl9or30405k0s8v20u80ok@group.calendar.google.com
+  entities:
+  - device_id: andrews_calendar
+    name: Andrew's Calendar
+    track: true
+
+- cal_id: 407qbbmqoaoq6btoarfbe0pro4@group.calendar.google.com
+  entities:
+  - device_id: daves_travel
+    name: Dave's Travel
+    track: true
+
+- cal_id: en.usa#holiday@group.v.calendar.google.com
+  entities:
+  - device_id: holidays_in_united_states
+    name: Holidays in United States
+    track: true
+
+- cal_id: '#contacts@group.v.calendar.google.com'
+  entities:
+  - device_id: contacts
+    name: Contacts
+    track: true
+
+- cal_id: i_50.135.110.172#sunrise@group.v.calendar.google.com
+  entities:
+  - device_id: sunrisesunset_boston
+    name: 'Sunrise/Sunset: Boston'
+    track: true
+
+- cal_id: p#weather@group.v.calendar.google.com
+  entities:
+  - device_id: weather_37138
+    name: 'Weather: 37138'
+    track: true
+
+- cal_id: p#weeknum@group.v.calendar.google.com
+  entities:
+  - device_id: week_numbers
+    name: Week Numbers
+    track: true

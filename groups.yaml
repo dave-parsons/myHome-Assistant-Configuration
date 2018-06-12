@@ -1,0 +1,170 @@
+#customize:
+default_view:
+  name: Default View
+  view: yes
+  icon: mdi:home-assistant
+  entities:
+    - device_tracker.monicas_iphone
+    - device_tracker.david_iphone
+    - group.calendar
+    - group.media_player
+
+
+activity_view:
+  name: Activity View
+  view: yes
+  icon: mdi:calendar-multiple-check
+  entities:
+    - sensor.time_utc
+    - calendar.andrews_calendar
+    - calendar.contacts
+    - calendar.dave_and_monica
+    - calendar.daves_travel
+    - calendar.holidays_in_united_states
+    - calendar.marians_calendar
+    - calendar.marias_calendar_meryan130gmailcom
+    - calendar.matthew_with_dave
+    - calendar.matthews_activities_and_events
+    - calendar.matthews_school_holidays
+    - calendar.monica_work
+
+media_view:
+  name: Media View
+  view: yes
+  icon: mdi:television-classic
+  entities:
+    - group.media_player
+
+photo_view:
+  name: Photo View
+  view: yes
+  icon: mdi:image-multiple
+  entities:
+    - sun.sun
+    
+music_view:
+  name: Music View
+  view: yes
+  icon: mdi:library-music
+  entities:
+    - group.media_player
+
+climate_veiw:
+  name: Climate View
+  view: yes
+  icon: mdi:temperature-fahrenheit
+  entities:
+    - sun.sun
+    - sensor.downstairs_temperature
+    - sensor.upstairs_temperature
+    - binary_sensor.downstairs_occupancy
+    - binary_sensor.upstairs_occupancy
+    - climate.downstairs
+    - sensor.downstairs_humidity    
+
+security_veiw:
+  name: Security View
+  view: yes
+  icon: mdi:security-home
+  entities:
+    - sun.sun
+
+maps_view:
+  name: Maps View
+  view: yes
+  icon: mdi:google-maps
+  entities:
+    - sun.sun
+
+documents_view:
+  name: Documents View
+  view: yes
+  icon: mdi:note-multiple-outline
+  entities:
+    - sun.sun
+    
+status_view:
+  name: Status View
+  view: yes
+  icon: mdi:information-outline
+  entities:
+    - sun.sun
+    - group.monicas_phone
+    - group.David_phone
+    - persistent_notification.notification
+    
+#groups    
+media_player:
+  name: media_player
+  entities:
+    - media_player.garage
+    - media_player.office
+    - media_player.outdoor_kitchen
+    - media_player.family_room
+    - media_player.master_bathroom
+    - media_player.kids_bathroom
+    - media_player.marians_bedroom
+    - media_player.bonus_room
+    - media_player.vizio1
+    - media_player.vizio2
+    
+climate:
+  name: climate
+  entities:
+    - sun.sun
+    - sensor.downstairs_temperature
+    - sensor.upstairs_temperature
+    - binary_sensor.downstairs_occupancy
+    - binary_sensor.upstairs_occupancy
+    - climate.downstairs
+    - sensor.downstairs_humidity    
+
+time:
+  name: time
+  entities:
+    - sensor.date
+    - sensor.time
+
+monicas_phone:
+  name: Monicas iPhone
+  entities:
+    - device_tracker.monicas_iphone
+    - sensor.monicas_iphone_battery_level
+    - sensor.monicas_iphone_battery_state
+
+david_phone:
+  name: Davids iPhone
+  entities:
+    - device_tracker.david_iphone
+    - sensor.parsons_iphone_battery_level
+    - sensor.parsons_iphone_battery_state
+
+calendar:
+  name: calendar
+  entities:
+    - sensor.time_utc
+    - calendar.andrews_calendar
+    - calendar.contacts
+    - calendar.dave_and_monica
+    - calendar.daves_travel
+    - calendar.holidays_in_united_states
+    - calendar.isd_rss_calendar
+    - calendar.marians_calendar
+    - calendar.marias_calendar_meryan130gmailcom
+    - calendar.matthew_with_dave
+    - calendar.matthews_activities_and_events
+    - calendar.matthews_school_holidays
+    - calendar.monica_work
+
+everything_view:
+  view: yes
+  name: Everything Else
+  control: hidden
+  entities:
+    - group.all_lights
+    - group.all_locks
+    - group.all_remotes
+    - group.all_devices
+    - group.all_automations
+    - group.all_scripts
+    - group.media_player
